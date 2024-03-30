@@ -35,3 +35,30 @@ a {
     text-decoration: none;
     color: #FED436;
 }
+
+
+@keyframes moveSlide {
+
+    0% { transform: translateX(-90%); }
+    100% { transform: translateX(100%); }
+
+}
+
+.slide {
+    display: flex;
+    flex: none;
+    justify-content: center;
+    min-width: 100%;
+    animation-name: moveSlide;
+    animation: moveSlide 17s linear infinite;
+    animation-delay: 0s;
+    
+
+}
+
+.slideText {
+    word-spacing: 20px;
+    font-size: 10rem;
+
+}
+
