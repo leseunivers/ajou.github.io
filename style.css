@@ -39,7 +39,7 @@ a {
 
 @keyframes moveSlide {
 
-    0% { transform: translateX(-91%); }
+    0% { transform: translateX(-98%); }
     100% { transform: translateX(100%); }
 
 }
@@ -77,6 +77,6 @@ a {
 
 .title {
     color: #FED436;
-    font-size: 19.8vw;
+    font-size: 17vw;
     line-height: 0.87;
 }
