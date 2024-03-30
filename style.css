@@ -39,7 +39,7 @@ a {
 
 @keyframes moveSlide {
 
-    0% { transform: translateX(-100%); }
+    0% { transform: translateX(-91%); }
     100% { transform: translateX(100%); }
 
 }
@@ -58,7 +58,25 @@ a {
 
 .slideText {
     word-spacing: 20px;
-    font-size: 10rem;
+    font-size: 11vh;
 
 }
 
+
+.ajouLogo {
+    display: flex;
+    justify-content: center;
+    margin-top: 37vh;
+
+}
+
+.logoSize {
+    width: 40%;
+    height: auto;
+}
+
+.title {
+    color: #FED436;
+    font-size: 19.8vw;
+    line-height: 0.87;
+}
