@@ -59,6 +59,7 @@ a {
 .slideText {
     word-spacing: 20px;
     font-size: 11vh;
+    letter-spacing: 0.7px;
 
 }
 
@@ -79,4 +80,5 @@ a {
     color: #FED436;
     font-size: 17vw;
     line-height: 0.87;
+    letter-spacing: 0.7px;
 }
