@@ -39,7 +39,7 @@ a {
 
 @keyframes moveSlide {
 
-    0% { transform: translateX(-90%); }
+    0% { transform: translateX(-100%); }
     100% { transform: translateX(100%); }
 
 }
