@@ -8,7 +8,7 @@ body {
 @media (max-width: 768px) {
     body {
         font-family: 'Oswald';
-        letter-spacing: -1000px;
+        letter-spacing: 2px;
     }
 }
 
