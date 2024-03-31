@@ -1,7 +1,17 @@
 body {
     margin: 0px;
+    font-family: 'Ajou';
 
 }
+
+
+@media (max-width: 768px) {
+    body {
+        font-family: 'Oswald';
+        letter-spacing: -1000px;
+    }
+}
+
 
 @font-face {
     font-family: "Ajou";
@@ -27,7 +37,6 @@ h1 {
     display: flex;
     color: #ffce1b;
     text-align: center;
-    font-family: 'Ajou';
     justify-content: center;
 }
 
@@ -78,7 +87,7 @@ a {
 
 .title {
     color: #ffce1b;
-    font-size: 8vw;
+    font-size: 17vw;
     line-height: 0.87;
 
 }
