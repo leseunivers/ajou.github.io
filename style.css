@@ -6,7 +6,6 @@ body {
 
 
 
-
 @font-face {
     font-family: "Ajou";
     src: url(AjouTTF.ttf);
@@ -84,4 +83,9 @@ a {
     font-size: 17vw;
     line-height: 0.87;
 
+}
+
+
+.bottom {
+    margin-left: 1vh;
 }
