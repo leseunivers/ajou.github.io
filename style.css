@@ -88,5 +88,6 @@ a {
 
 .comment {
     margin-left: 1vh;
-    font-size: 1vw;
+    font-size: 0.87vw;
+    line-height: 1;
 }
