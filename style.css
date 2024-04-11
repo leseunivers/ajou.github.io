@@ -43,7 +43,7 @@ a {
 
 .second {
     background-color: black;
-    height: 45vh;
+    height: 41vh;
 }
 
 @keyframes moveSlide {
@@ -69,6 +69,7 @@ a {
 .slideText {
     word-spacing: 20px;
     font-size: 7vh;
+    margin-top: 11vh;
   
 
 }
@@ -94,8 +95,21 @@ a {
 }
 
 
-.comment {
-    margin-left: 1vh;
-    font-size: 0.87vw;
-    line-height: 1;
+.third {
+    background-color: black;
+    height: 100vh;
+}
+
+
+.line {
+    height: 3.7px;
+    background-color: #ffce1b;
+}
+
+h2 {
+    color: #ffce1b;
+}
+
+.smallAjou {
+    margin-left: 2vw;
 }
