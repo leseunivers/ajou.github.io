@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     font-family: 'Ajou';
-
+    background-color: black;
 }
 
 
@@ -43,7 +43,7 @@ a {
 
 .second {
     background-color: black;
-    height: 41vh;
+    height: 33vh;
 }
 
 @keyframes moveSlide {
@@ -68,10 +68,9 @@ a {
 
 .slideText {
     word-spacing: 20px;
-    font-size: 7vh;
-    margin-top: 11vh;
+    font-size: 10vmin;
+    margin-top: 10vh;
   
-
 }
 
 
@@ -98,6 +97,7 @@ a {
 .third {
     background-color: black;
     height: 100vh;
+    margin-top: 10vmin;
 }
 
 
