@@ -5,7 +5,6 @@ body {
 }
 
 
-
 @font-face {
     font-family: "Ajou";
     src: url(AjouTTF.ttf);
@@ -13,11 +12,15 @@ body {
 
 .one {
     background-color: #3697FE;
-    overflow-y: scroll;
     height: 100vh;
 }
 
 .top {
+    margin-top: 0px;
+}
+
+
+.AJOU {
     margin-top: 30vh;
 }
 
@@ -38,6 +41,9 @@ a {
     color: #ffce1b;
 }
 
+.second {
+    background-color: black;
+}
 
 @keyframes moveSlide {
 
@@ -52,7 +58,7 @@ a {
     justify-content: center;
     min-width: 100%;
     animation-name: moveSlide;
-    animation: moveSlide 13s linear infinite;
+    animation: moveSlide 11s linear infinite;
     animation-delay: 0s;
     
 
@@ -65,11 +71,15 @@ a {
 
 }
 
+.third {
+    background-color: black;
+}
+
 
 .ajouLogo {
     display: flex;
     justify-content: center;
-    margin-top: 37vh;
+    margin-top: 0px;
 
 }
 
@@ -79,7 +89,7 @@ a {
 }
 
 .title {
-    color: #ffce1b;
+
     font-size: 17vw;
     line-height: 0.87;
 
