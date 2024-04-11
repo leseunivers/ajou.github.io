@@ -49,19 +49,17 @@ a {
 
 @keyframes moveSlide {
 
-    0% { transform: translateX(-98%); }
-    100% { transform: translateX(100%); }
+    from { transform: translateX(0); }
+        to { transform: translateX(-50%); } 
 
 }
 
 .slide {
-    display: flex;
-    justify-content: center;
+    position: absolute;
     min-width: 50%;
     max-height: 50px;
     animation-name: moveSlide;
-    animation: moveSlide 11s linear infinite;
-    animation-delay: 0s;
+    animation: moveSlide 23s linear infinite;
 
     
 
@@ -72,6 +70,9 @@ a {
     font-size: 10vmin;
     margin-top: 5vh;
     white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+
   
 }
 
