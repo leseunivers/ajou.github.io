@@ -21,7 +21,7 @@ body {
 
 
 .AJOU {
-    margin-top: 23vh;
+    margin-top: 20vh;
 }
 
 .bottom {
@@ -44,7 +44,7 @@ a {
 
 .second {
     background-color: black;
-    height: 33vh;
+    height: 23vh;
 }
 
 @keyframes moveSlide {
@@ -71,6 +71,7 @@ a {
     word-spacing: 20px;
     font-size: 10vmin;
     margin-top: 5vh;
+    white-space: nowrap;
   
 }
 
