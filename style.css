@@ -1,5 +1,5 @@
 body {
-    margin: 0px;
+    margin: 0;
     font-family: 'Ajou';
     background-color: black;
 }
@@ -11,7 +11,7 @@ body {
 }
 
 .one {
-    background-color: #3697FE;
+    background: linear-gradient(#2e51fe 90%, black);
     height: 77vh;
 }
 
