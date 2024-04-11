@@ -54,7 +54,7 @@ a {
 
 }
 
-.slide {
+#slide {
     position: absolute;
     min-width: 50%;
     max-height: 50px;
@@ -65,7 +65,7 @@ a {
 
 }
 
-.slideText {
+#slideText {
     word-spacing: 20px;
     font-size: 10vmin;
     margin-top: 5vh;
