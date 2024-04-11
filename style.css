@@ -43,6 +43,7 @@ a {
 
 .second {
     background-color: black;
+    height: 45vh;
 }
 
 @keyframes moveSlide {
@@ -54,25 +55,22 @@ a {
 
 .slide {
     display: flex;
-    flex: none;
     justify-content: center;
-    min-width: 100%;
+    min-width: 50%;
+    max-height: 50px;
     animation-name: moveSlide;
     animation: moveSlide 11s linear infinite;
     animation-delay: 0s;
+
     
 
 }
 
 .slideText {
     word-spacing: 20px;
-    font-size: 11vh;
+    font-size: 7vh;
   
 
-}
-
-.third {
-    background-color: black;
 }
 
 
