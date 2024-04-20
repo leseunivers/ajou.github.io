@@ -14,6 +14,7 @@ body {
 .one {
     background: linear-gradient(#2e51fe 90%, black);
     height: 77vh;
+    width: 100vw;
 }
 
 .top {
