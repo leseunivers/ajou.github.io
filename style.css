@@ -1,155 +1,55 @@
 body {
+
     margin: 0;
-    font-family: 'Ajou';
-    background-color: black;
-    overflow-x: hidden;
-}
-
-
-@font-face {
-    font-family: "Ajou";
-    src: url(AjouTTF.ttf);
-}
-
-.one {
-    background: linear-gradient(#2e51fe 90%, black);
-    height: 77vh;
-    width: 100vw;
-}
-
-.top {
-    margin-top: 0px;
-}
-
-
-.AJOU {
-    margin-top: 2vh;
-}
-
-.bottom {
-    margin-bottom: 20vh;
-}
-
-.small1 {
-    font-size: 70%;
-    margin-top: 17vh;
-}
-
-.small2 {
-    font-size: 70%;
+    height: 200vh;
 
 }
-
-.small3 {
-    font-size: 70%;
-    margin-top: 5vh;
-
-}
-
 
 h1 {
 
-    padding: 0.25rem;
-    display: flex;
-    color: #ffce1b;
     text-align: center;
     justify-content: center;
     word-spacing: normal;
+    font-family: "Canela";
 
 }
+
+
+h2 {
+
+    text-align: center;
+    justify-content: center;
+    word-spacing: normal;
+    font-family: "Ajou";
+
+}
+
+.notion {
+    margin-top: 33vh;
+}
+
+@font-face {
+    font-family: "Ajou";
+    src: url(AjouTTF.ttf)
+
+}
+
+
+h3 {
+
+    font-family: "Ajou";
+    text-align: center;
+    justify-content: center;
+    word-spacing: normal;
+    font-size: 1vw;
+    margin-top: 45vh;
+
+
+}
+
 
 a {
     text-decoration: none;
-    color: #ffce1b;
+    color: black;
 }
 
-.second {
-    background-color: black;
-    height: 23vh;
-}
-
-@keyframes moveSlide {
-
-    from { transform: translateX(0); }
-        to { transform: translateX(-50.5%); } 
-
-}
-
-
-
-@media (max-width: 1230px) {
-    
-    @keyframes moveSlide {
-
-        from { transform: translateX(0); }
-            to { transform: translateX(-50.7%); } 
-    
-    }
-}
-
-
-
-
-#slide {
-
-    position: absolute;
-    min-width: 50%;
-    max-height: 50px;
-    animation-name: moveSlide;
-    animation: moveSlide 13s linear infinite;
-    flex-wrap: nowrap;
-
-}
-
-
-#slideText {
-
-    word-spacing: 20px;
-    font-size: 3vmin;
-    margin-top: 5vh;
-    white-space: nowrap;
-    overflow: hidden;
-    position: relative;
-  
-}
-
-
-.ajouLogo {
-    display: flex;
-    justify-content: center;
-    margin-top: 0px;
-
-}
-
-.logoSize {
-    width: 40%;
-    height: auto;
-}
-
-.title {
-
-    font-size: 17vw;
-    line-height: 0.87;
-
-}
-
-
-.third {
-    background-color: black;
-    height: 100vh;
-    margin-top: 10vmin;
-}
-
-
-.line {
-    height: 3.7px;
-    background-color: #ffce1b;
-}
-
-h2 {
-    color: #ffce1b;
-}
-
-.smallAjou {
-    margin-left: 3vmin;
-}
